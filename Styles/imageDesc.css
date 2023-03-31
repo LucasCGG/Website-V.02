@@ -1,0 +1,80 @@
+figure {
+    border-radius: 1%;
+    box-shadow: 3px 3px 2px #ccc;
+}
+
+figcaption h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+figcaption p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+figure.text {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+figure.text figcaption {
+    position: absolute;
+    top: 50%;
+    left: 22.5%;
+    right: 22.5%;
+    width: 55%;
+    opacity: 0;
+    z-index: 1;
+    transition: all 0.8s ease-out;
+    transition-delay: 0.2s;
+}
+
+figure.text:after {
+    border-radius: 5%;
+    display: inline-block;
+    position: absolute;
+    content: "";
+    top: 25%;
+    left: 15%;
+    right: 15%;
+    bottom: 25%;
+    background: white;
+    opacity: 0;
+    transition: all 0.8s ease-out;
+}
+
+figure.text:hover:after {
+    opacity: 0.9;
+}
+
+figure.text:hover figcaption {
+    transform: translateY(-50%);
+    opacity: 1;
+}
+
+
+
+/*Media Querrys*/
+@media (min-width:1024px) {
+    figcaption h1 {
+        font-size:large;
+    }
+    
+    figcaption p {
+        font-size:medium;
+    }
+}
+
+@media (max-width: 1000) {
+    figcaption h1 {
+        font-size:x-large;
+    }
+    
+    figcaption p {
+        font-size:large;
+    }
+}

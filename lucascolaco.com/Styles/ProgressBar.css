@@ -1,0 +1,218 @@
+/*Progress Bar*/
+.progress {
+    background: rgba(255, 255, 255, 0.1) !important;
+    justify-content: flex-start;
+    border-radius: 0px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 10vw;
+    width: 100%;
+}
+
+.progress-value-5 {
+    animation: progress_5 3s normal forwards;
+    box-shadow: 0 10px 40px -10px rgb(0, 191, 255);
+    border-radius: 100px;
+    background: rgb(0, 72, 255);
+    height: 25px;
+    width: 0;
+}
+
+.progress-value-10 {
+    animation: progress_10 3s normal forwards;
+    box-shadow: 0 10px 40px -10px rgb(0, 191, 255);
+    border-radius: 100px;
+    background: rgb(0, 72, 255);
+    height: 25px;
+    width: 0;
+}
+
+.progress-value-20 {
+    animation: 3s normal forwards;
+    box-shadow: 0 10px 40px -10px rgb(0, 191, 255);
+    border-radius: 100px;
+    background: rgb(0, 72, 255);
+    height: 25px;
+    width: 0;
+}
+
+.progress-value-25 {
+    animation: progress_25 3s normal forwards;
+    box-shadow: 0 10px 40px -10px rgb(0, 191, 255);
+    border-radius: 100px;
+    background: rgb(0, 72, 255);
+    height: 25px;
+    width: 0;
+}
+
+.progress-value-40 {
+    animation: progress_40 3s normal forwards;
+    box-shadow: 0 10px 40px -10px rgb(0, 191, 255);
+    border-radius: 100px;
+    background: rgb(0, 72, 255);
+    height: 25px;
+    width: 0;
+}
+
+.progress-value-50 {
+    animation: progress_50 3s normal forwards;
+    box-shadow: 0 10px 40px -10px rgb(0, 191, 255);
+    border-radius: 100px;
+    background: rgb(0, 72, 255);
+    height: 25px;
+    width: 0;
+}
+
+.progress-value-60 {
+    animation: progress_60 3s normal forwards;
+    box-shadow: 0 10px 40px -10px rgb(0, 191, 255);
+    border-radius: 100px;
+    background: rgb(0, 72, 255);
+    height: 25px;
+    width: 0;
+}
+
+.progress-value-75 {
+    animation: progress_75 3s normal forwards;
+    box-shadow: 0 10px 40px -10px rgb(0, 191, 255);
+    border-radius: 100px;
+    background: rgb(0, 72, 255);
+    height: 25px;
+    width: 0;
+}
+
+.progress-value-80 {
+    animation: progress_80 3s normal forwards;
+    box-shadow: 0 10px 40px -10px rgb(0, 191, 255);
+    border-radius: 100px;
+    background: rgb(0, 72, 255);
+    height: 25px;
+    width: 0;
+}
+
+.progress-value-90 {
+    animation: progress_90 3s normal forwards;
+    box-shadow: 0 10px 40px -10px rgb(0, 191, 255);
+    border-radius: 100px;
+    background: rgb(0, 72, 255);
+    height: 25px;
+    width: 0;
+}
+
+.progress-value-100 {
+    animation: progress_100 3s normal forwards;
+    box-shadow: 0 10px 40px -10px rgb(0, 191, 255);
+    border-radius: 100px;
+    background: rgb(0, 72, 255);
+    height: 25px;
+    width: 0;
+}
+
+@keyframes progress_5 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 5%;
+    }
+}
+
+@keyframes progress_10 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 10%;
+    }
+}
+
+@keyframes progress_20 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 20%;
+    }
+}
+
+@keyframes progress_25 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 25%;
+    }
+}
+
+@keyframes progress_40 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 40%;
+    }
+}
+
+@keyframes progress_50 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes progress_60 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes progress_75 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes progress_80 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+@keyframes progress_90 {
+    0% {
+        width:0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes progress_100 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}

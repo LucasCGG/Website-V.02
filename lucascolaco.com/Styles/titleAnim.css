@@ -1,0 +1,43 @@
+.titel_pimary {
+    font-size: 6.5vw;
+    margin: -3px;
+    letter-spacing: 0.1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+    text-shadow:
+        8px 8px #fc238f,
+        20px 20px black;
+}
+.h1_title_container {
+    color:rgb(205, 182, 182);
+    position: relative;
+    text-align: center;
+    margin-bottom: 15rem;
+}
+
+.titel_pimary:hover{
+    position: relative;
+    animation:move .25s linear;
+    animation-timing-function: ease-in;
+    display: inline-block; 
+}
+
+
+@keyframes move{
+    0% {
+        transform:scale(1, 1);
+        top:0;
+    }
+
+    50%{
+        transform:scale(1.4,.5);
+        top:1vh;
+    }
+
+
+    100%{
+        transform:scale(1, 1);
+        top:0;
+    }
+}
